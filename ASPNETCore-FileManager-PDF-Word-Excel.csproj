@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<RootNamespace>ASPNETCore_FileManager_PDF_Word_Excel</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.2" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+		<!--<PackageReference Include="Syncfusion.EJ2.Spreadsheet.AspNet.Core" Version="20.3.0.50" />
+		<PackageReference Include="Syncfusion.EJ2.WordEditor.AspNet.Core" Version="20.3.0.50" />-->
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="D:\Workspace\Development\ej2-asp-core\src\Syncfusion.EJ2.csproj" />
+	</ItemGroup>
+
+</Project>
